@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA</title>
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="contenedor-padre">
+
+                <div class="contenido">
+                    <div class="contenedor-sup">
+                        <h1>TIENDA SEBAS</h1>
+                    </div>
+
+                    <button class="boton" id="boton-descuento">¡DESCUENTO!</button>
+
+                    <div class="contenedor-cuerpo">
+                        <p>prueba</p>
+                    </div>
+                    <div class="inventario">
+                        <div class="contenedor-inventario">
+                            <p>Huevos</p>
+                            <p>$15000</p>
+                            <p>Unidades disponibles: 30</p>
+                            <img src="imagenes/huevos.png" id="img-huevos">
+                            <div class="comprar">
+                                <input type="text" placeholder="Ingrese la cantidad" class="modificar-input" id="input-huevos">
+                                <img src="imagenes/carropng.png" class="carroCompra" id="boton-huevos">
+                            </div>
+                        </div>
+
+                        <div class="contenedor-inventario">
+                            <p>Leche</p>
+                            <p>$3500</p>
+                            <p>Unidades disponibles: 20</p>
+                            <img src="imagenes/leche.png" id="img-huevos">
+                            <div class="comprar">
+                                <input type="text" placeholder="Ingrese la cantidad" class="modificar-input" id="input-leche">
+                                <img src="imagenes/carropng.png" class="carroCompra"id="boton-leche" >
+                            </div>
+                        </div>
+
+                        <div class="contenedor-inventario">
+                            <p>Pan</p>
+                            <p>$2000</p>
+                            <p>Unidades disponibles: 50</p>
+                            <img src="imagenes/panng.png" id="img-huevos">
+                            <div class="comprar">
+                                <input type="text" placeholder="Ingrese la cantidad" class="modificar-input" id="input-pan">
+                                <img src="imagenes/carropng.png" class="carroCompra" id="boton-pan">
+                            </div>
+                        </div>
+
+                        <div class="contenedor-inventario">
+                            <p>Fruta mix</p>
+                            <p>$5000</p>
+                            <p>Unidades disponibles: 50</p>
+                            <img src="imagenes/frutas.png" id="img-huevos">
+                            <div class="comprar">
+                                <input type="text" placeholder="Ingrese la cantidad" class="modificar-input" id="input-frutas">
+                                <img src="imagenes/carropng.png" class="carroCompra" id="boton-frutas">
+                            </div>
+                        </div>
+                       
+                    </div>
+                <div class="contenedor-inf">
+                    <p>Total gastado: <span id="precio-total">0</span></p>
+                    <input type="button" method="POST" value="PAGAR" id="boton-pagar">
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>

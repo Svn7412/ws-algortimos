@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.contenedor-padre{
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    height: 90vh;
+    width: auto;
+    border: double 10px rgb(255, 253, 253);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor-sup{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color:transparent;
+    -webkit-text-stroke: 1px white;
+}
+.boton{
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    border:1px solid rgb(196, 33, 182);
+    transition: all .5s;
+}
+
+.boton:hover{
+    background-color:rgb(196, 33, 182) ;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.inventario{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.contenedor-inventario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+#img-huevos{
+    width: 400px;
+    height: 300px;
+    transition: all 1s;
+}
+#img-huevos:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.carroCompra{
+    width: 20px;
+    height: 20px;
+}
+.carroCompra:hover{
+    cursor: pointer;
+}
+.comprar{
+    display: flex;
+    justify-content: center;
+}
+.modificar-input{
+    border:  1px solid rgb(212, 9, 212);
+    border-radius: 3em;
+    background-color: black;
+}
+.modificar-input::placeholder{
+    color: white;
+    letter-spacing: 2px;
+
+}
+.modificar-input:focus{
+    border:  1px solid rgb(98, 6, 98);
+}
+.contenedor-inf{
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#boton-pagar{
+    margin-top: 30px;
+    background-color:transparent ;
+    border:1px solid rgb(202, 68, 202) ;
+    color: white;
+    width: 180px;
+    border-radius: 3em;
+    transition: all 1s;
+    height: 50px;
+}
+#boton-pagar:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+    background-color:rgb(202, 68, 202) ;
+    border:1px solid rgb(255, 255, 255) ;
+
+}
