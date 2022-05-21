@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="caja1">
+        <h1><b>INVENTARIO ALMACEN</b></h1>
+        <div class="caja3">
+            <div class="caja4">
+                <div>
+                    <img src="https://us.123rf.com/450wm/iconicbestiary/iconicbestiary1604/iconicbestiary160400016/55251093-trabajador-del-almac%C3%A9n-mercanc%C3%ADas-controladas-en-el-palet-stock-teniendo-trabajo-ilustraci%C3%B3n-vectori.jpg?ver=6"
+                        class="imagen">
+                </div>
+                <div>
+                    <div>
+                        <b>CATEGORIA DEL PRODUCTO</b>
+                    </div>
+                    <select class="input" id="cT">
+                        <option><b>Elija la categoria</b></option>
+                        <option>TECNOLOGIA</option>
+                        <option>HOGAR</option>
+                        <option>ROPA</option>
+                    </select>
+                </div>
+                <div class="caja2">
+                    <b>INGRESE EL PRODUCTO</b>
+                    <div>
+                        <input type="text" placeholder="Nombre del producto" class="input" id="nP">
+                    </div>
+                </div>
+                <div class="caja3">
+                    <b>CANTIDAD DISPONIBLE</b>
+                    <div>
+                        <input type="text" placeholder="Cantidad del producto" class="input" id="cD">
+                    </div>
+                </div>
+                <div class="boton">
+                    <div>
+                        <b>PRECIO DEL PRODUCTO</b>
+                    </div>
+                    <input type="number" placeholder="Ingrese el precio del producto" class="input" id="pR">
+                </div>
+                <div>
+                    <div class="caja3">
+                        <b>DISMINUIR CANTIDAD</b>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nombre del producto que quiere disminuir" class="input"
+                        id="dis2">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Cantidad que quiere disminuir" class="input" id="dis">
+                    </div>
+                </div>
+                <div>
+                    <div class="caja3">
+                        <b>AUMENTAR CANTIDAD</b>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nombre del producto que quiere aumentar" class="input"
+                        id="aum">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Cantidad que quiere aumentar" class="input" id="aum1">
+                    </div>
+                </div>
+                <div class="caja6">
+                    <div>
+                        <input type="checkbox" id="primero">
+                        <b>Agregar producto de primero en la lista</b>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ultimo">
+                        <b>Agregar producto al final de la lista</b>
+                    </div>
+                </div>
+                <div class="boton">
+                    <button id="agregar"><b>AGREGAR</b></button>
+                    <button id="cPC"><b>CANTIDAD POR CATEGORIA</b></button>
+                    <button id="tP"><b>CANTIDAD TOTAL DE PRODUCTOS</b></button>
+                </div>
+                <div class="boton">
+                    <button id="final"><b>PRECIO TOTAL DE TODOS LOS PRODUCTOS</b></button>
+                    <button id="segundo"><b>DISMINUIR CANTIDAD</b></button>
+                </div>
+                <div>
+                    <button id="aum3"><b>AUMENTAR CANTIDAD</b></button>
+                    <button><b>ELIMINAR PRODUCTO</b></button>
+                </div>
+            </div>
+            <div class="caja5">
+                <input type="text" placeholder="BUSCAR PRODUCTO" class="input2" id="iD1">
+                <button id = "iD2"><b>BUSCAR</b></button>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+</body>
+</html>

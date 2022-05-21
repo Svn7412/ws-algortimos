@@ -1,0 +1,66 @@
+.caja1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color:black;
+}
+.caja2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: small;
+
+}
+.caja3{
+  margin-top: 20px;
+  font-size: small;
+}
+.boton{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: small;
+}
+.boton2{
+  margin-top: 25px;
+
+ }
+ .caja4{
+   border: 1px solid black;
+   padding: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ .caja5{
+   display: flex;
+   flex-direction: column ;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ .input{
+   background-color:transparent;
+   width: 50vw;
+ }
+ .input::placeholder{
+   font-weight: bold;
+   color: black;
+ }
+ .input2::placeholder{
+   font-weight: bold;
+   color: black;
+ }
+ .imagen{
+   display: flex;
+   align-items: center;
+   width: 250px;
+   height: 250px;
+   margin-bottom: 100px;
+ }
+ .caja6{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+ }
